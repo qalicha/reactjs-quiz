@@ -1,0 +1,47 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+   background-color:#496989; 
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+}
+.question{
+  color:whitesmoke;
+}
+
+.container .score{
+  text-align: center;
+  margin-top: 50px;
+  }
+
+.timer-question{
+  display: flex;
+  justify-content: space-between;
+}
+ .answers-container{
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 250px;
+  height:250px;
+  color:whitesmoke;
+} 
+.answers-container button{
+   width: 100px;
+   height: 100px;
+   margin: 10px;
+   background-color: green;
+   color:whitesmoke;
+}
+.submit-btn{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.nav-btn{
+  display: flex;
+  justify-content: space-between;
+}
